@@ -1,0 +1,32 @@
+{
+  "name": "zoom-clone-nodejs",
+  "version": "1.0.0",
+  "description": "",
+  "main": "server.js",
+  "scripts": {
+    "start": "nodemon server.js"
+  },
+  "repository": {
+    "type": "git",
+    "url": "git+https://github.com/sumantaGhosh24/zoom-clone-nodejs.git"
+  },
+  "keywords": [],
+  "author": "sumanta ghosh",
+  "license": "ISC",
+  "bugs": {
+    "url": "https://github.com/sumantaGhosh24/zoom-clone-nodejs/issues"
+  },
+  "homepage": "https://github.com/sumantaGhosh24/zoom-clone-nodejs#readme",
+  "dependencies": {
+    "cors": "^2.8.5",
+    "ejs": "^3.1.8",
+    "express": "^4.17.1",
+    "peer": "^0.6.1",
+    "peerjs": "^1.4.7",
+    "socket.io": "^2.3.0",
+    "uuid": "^9.0.0"
+  },
+  "devDependencies": {
+    "nodemon": "^2.0.20"
+  }
+}
